@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    --white: #ffffff; --black: #282828; --red: #ff5c5c; --yellow: #ffbb33; --green: #00c851; --blue: #3d8bfd; --violet: #aa66cc;
+    --alpha-red: rgba(255, 92, 92, 0.2); --alpha-yellow: rgba(255, 187, 51, 0.2); --alpha-green: rgba(0, 200, 81, 0.2); --alpha-blue: rgba(61, 139, 253, 0.2); --alpha-violet: rgba(170, 102, 204, 0.2);
+    --light-theme-primary: #ffffff; --light-theme-secondary: #f1f1f1; --light-theme-content: #282828;
+    --dark-theme-primary: #444444; --dark-theme-secondary: #212121; --dark-theme-content: #f8f8f8;
+    --shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.bg-white { background-color: var(--white); color: var(--black); } .bg-black { background-color: var(--black); color: var(--white); } .bg-red { background-color: var(--red); color: var(--white); } .bg-yellow { background-color: var(--yellow); color: var(--white); } .bg-green { background-color: var(--green); color: var(--white); } .bg-blue { background-color: var(--blue); color: var(--white); } .bg-violet { background-color: var(--violet); color: var(--white); }
+.color-white { color: var(--white); } .color-black { color: var(--black); } .color-red { color: var(--red); } .color-yellow { color: var(--yellow); } .color-green { color: var(--green); } .color-blue { color: var(--blue); } .color-violet { color: var(--violet); }
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
